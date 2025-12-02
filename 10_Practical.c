@@ -1,4 +1,4 @@
-// WAP to find tha fibonacci series . 
+// WAP to find the fibonacci series . 
 
 #include <stdio.h>
 int main () {
@@ -6,13 +6,13 @@ int main () {
 int n , a = 0 , b = 1 , c;
 
 printf("Enter teerms : ");
-scanf("%d",&n);
+scanf("%d ",&n);
 
-printf("%d %d", a, b);
+printf("%d %d ", a, b);
 
 for(int i = 2 ; i < n ; i++ ){
     c = a + b;
-    printf("%d",c);
+    printf("%d ",c);
     a = b ;
     b = c ;
 }

@@ -7,13 +7,15 @@ int main() {
     scanf("%f", &bill);
 
     if (bill > 1000) {
-        discount = bill * 0.10;  // 10% discount
+        discount = bill * 0.10;  
         finalBill = bill - discount;
-    } else {
+    } 
+    
+    else {
         finalBill = bill;
     }
 
-    printf("Actual Bill Amount = %.2f\n", finalBill);
+    printf("Actual Bill Amount = %f", finalBill);
 
     return 0;
 }

@@ -8,7 +8,7 @@ printf("Ente a Number : ");
 scanf("%d",&n);
 
 for(int i = 1; i<=n; i++)
-fact = i;
+fact = fact * i;
 printf("Factorial = %d", fact);
     return 0;
 

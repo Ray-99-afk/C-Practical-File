@@ -12,13 +12,13 @@ int main () {
     while(temp != 0){
         r = temp%10;
         sum += r*r*r;
-        temp != 10 ;
+        temp /= 10 ;
     }
 
     if(sum == num)
-    printf("Armstrong Number : ");
+    printf("Armstrong Number ");
     else
-    printf("Not Armstrong Number : ");
+    printf("Not Armstrong Number ");
     
     return 0;
 
